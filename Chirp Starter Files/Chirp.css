@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+#header {
+  text-decoration: none;
+  color: rgb(51, 144, 206);
+  height: 80px;
+}
+
+button img {
+  margin-right: 10px;
+}
+.T-example {
+  padding-top: 20px;
+  width: 480px;
+  color: rgba(85, 82, 82, 0.945);
+  font-family: Inter Light BETA;
+  margin-bottom: 20px;
+}
+button {
+  font-size: 1em;
+  background-color: rgb(0, 162, 255);
+  padding: auto;
+  padding-bottom: 10px;
+  width: 235px;
+  height: 50px;
+  border-radius: 5px;
+  border: none; /* I used border none to make button element without button border */
+  text-align: center;
+  font-family: Inter Semi Bold;
+  color: white;
+}
+#header button {
+  margin-top: 25px;
+  margin-left: 20px;
+  float: right;
+}
+
+.link {
+  margin-top: -35px;
+  margin-left: 250px;
+  color: rgb(85, 148, 148);
+  font-family: Inter Semi BOLD;
+}
+
+a {
+  text-decoration: none;
+}
+.sign-in {
+  background-color: #faf4f7;
+  font-family: Inter Semi Bold;
+  margin-top: -7px;
+  height: 840px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.heading {
+  font-size: 3.2em;
+  padding-top: 85px;
+  width: 530px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: right;
+  padding: 10px;
+}
+.heading2 {
+  font-size: 2em;
+  font-family: Inter Semi Bold;
+  width: 440px;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.text-box1 {
+  padding: 25px;
+  width: 495px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-family: Inter Light BETA;
+  color: rgb(124, 121, 121);
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+.text-box2 {
+  padding: 25px;
+  width: 495px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 20px;
+  margin-right: 100px;
+  font-family: Inter Light BETA;
+  color: rgb(124, 121, 121);
+  float: right;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+.text-box3 {
+  padding: 25px;
+  width: 495px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-family: Inter Light BETA;
+  color: rgb(124, 121, 121);
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+.text-box4 {
+  padding: 25px;
+  width: 495px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 20px;
+  margin-right: 100px;
+  font-family: Inter Light BETA;
+  color: rgb(124, 121, 121);
+  float: right;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+.comment {
+  background-color: rgb(203, 233, 233);
+  margin-top: 140px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 530px;
+}
+.heading3 {
+  font-size: 2em;
+  font-family: Inter Semi Bold;
+  width: 440px;
+  padding-top: 60px;
+}
+.customer-box1 {
+  padding: 25px;
+  width: 350px;
+  height: 250px;
+  margin-top: 40px;
+  margin-right: 100px;
+  font-family: Inter;
+  color: rgb(124, 121, 121);
+  border-width: 1px;
+  border-radius: 6px;
+  font-size: 1.1em;
+  background-color: white;
+}
+/* Number of people like */
+.number {
+  margin-top: -25px;
+  margin-left: 30px;
+}
+/* date of pulication */
+.date {
+  margin-top: -25px;
+  float: right;
+}
+.profilename {
+  color: black;
+  margin-top: -43px;
+  margin-left: 50px;
+}
+.twitter {
+  margin-left: 50px;
+  font-size: small;
+}
+.customer-box2 {
+  padding: 25px;
+  width: 350px;
+  height: 350px;
+  margin-top: -250px;
+  margin-left: auto; /* margin-left and margin-right auto makes block center */
+  margin-right: auto;
+  font-family: Inter;
+  color: rgb(124, 121, 121);
+  border-width: 1px;
+  border-radius: 6px;
+  font-size: 1.1em;
+  background-color: white;
+}
+.customer-box3 {
+  padding: 25px;
+  width: 350px;
+  height: 250px;
+  margin-top: -350px;
+  float: right;
+  font-family: Inter;
+  color: rgb(124, 121, 121);
+  border-width: 1px;
+  border-radius: 6px;
+  font-size: 1.1em;
+  background-color: white;
+}
+.text-line {
+  margin-top: -25px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+.payment {
+  color: rgb(124, 121, 121);
+  font-family: Inter;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  font-size: 1.1em;
+}
+.payment h1 {
+  margin-top: 80px;
+  font-family: Inter Semi Bold;
+  font-size: 2.2em;
+  color: black;
+}
+.payment-box {
+  background-color: #fcfce6;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  height: 400px;
+  border-style: solid;
+  border-color: chocolate;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 35px;
+  text-align: initial; /* initial  set its property default */
+}
+
+.month-title {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+.price {
+  font-size: 2.8em;
+  margin-top: -15px;
+  color: black;
+}
+.per-month {
+  margin-top: -35px;
+  margin-left: 64px;
+  font-size: 1.3em;
+}
+.payment-box img {
+  margin-top: 10px;
+}
+hr {
+  color: rgba(255, 255, 255, 0.959);
+  margin-top: 20px;
+}
+.payment-button {
+  background-color: rgb(0, 162, 255);
+  width: 100%;
+  margin-top: 5px;
+}
+#footer {
+  height: 80px;
+  background-color: rgb(203, 233, 233);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+#footer ul {
+  margin-top: -30px;
+  color: black;
+  font-size: 1.2em;
+  font-family: Inter;
+}
+#footer li {
+  color: black;
+}
+#footer li a {
+  color: black;
+}
